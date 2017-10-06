@@ -1,0 +1,56 @@
+#pragma once
+
+#include <stdint.h>
+#include <inttypes.h>
+
+/* unreversed */
+
+int64_t sceGnmAddEqEvent();
+int64_t sceGnmAreSubmitsAllowed();
+int64_t sceGnmDebugHardwareStatus();
+int64_t sceGnmDeleteEqEvent();
+int64_t sceGnmDingDong();
+int64_t sceGnmDisableMipStatsReport();
+int64_t sceGnmDispatchInitDefaultHardwareState();
+int64_t sceGnmDrawInitDefaultHardwareState();
+int64_t sceGnmDrawInitDefaultHardwareState175();
+int64_t sceGnmDriverCaptureInProgress();
+int64_t sceGnmDriverTriggerCapture();
+int64_t sceGnmFlushGarlic();
+int64_t sceGnmGetEqEventType();
+int64_t sceGnmGetEqTimeStamp();
+int64_t sceGnmGetTheTessellationFactorRingBufferBaseAddress();
+int64_t sceGnmInsertPopMarker();
+int64_t sceGnmInsertPushColorMarker();
+int64_t sceGnmInsertPushMarker();
+int64_t sceGnmInsertSetColorMarker();
+int64_t sceGnmInsertSetMarker();
+int64_t sceGnmInsertWaitFlipDone();
+int64_t sceGnmIsUserPaEnabled();
+int64_t sceGnmLogicalCuIndexToPhysicalCuIndex();
+int64_t sceGnmLogicalCuMaskToPhysicalCuMask();
+int64_t sceGnmMapComputeQueue();
+int64_t sceGnmRegisterGnmLiveCallbackConfig();
+int64_t sceGnmRequestFlipAndSubmitDone();
+int64_t sceGnmRequestMipStatsReportAndReset();
+int64_t sceGnmSetCsShader();
+int64_t sceGnmSetEsShader();
+int64_t sceGnmSetGsRingSizes();
+int64_t sceGnmSetGsShader();
+int64_t sceGnmSetHsShader();
+int64_t sceGnmSetLsShader();
+int64_t sceGnmSetPsShader();
+int64_t sceGnmSetSpiEnableSqCounters();
+int64_t sceGnmSetSpiEnableSqCountersForUnitInstance();
+int64_t sceGnmSetupMipStatsReport();
+int64_t sceGnmSetVsShader();
+int64_t sceGnmSubmitAndFlipCommandBuffers();
+int64_t sceGnmSubmitCommandBuffers();
+int64_t sceGnmSubmitDone();
+int64_t sceGnmUnmapComputeQueue();
+int64_t sceGnmValidateCommandBuffers();
+int64_t sceRazorCaptureCommandBuffersOnlyImmediate();
+int64_t sceRazorCaptureCommandBuffersOnlySinceLastFlip();
+int64_t sceRazorCaptureImmediate();
+int64_t sceRazorCaptureSinceLastFlip();
+int64_t sceRazorIsLoaded();
